@@ -268,10 +268,17 @@ Pantry Pal is based upon the ICS Software Engineering [Next.js Application Templ
 ![M6 Recipe Instructions 2](assets/m6/m6_recipe_instructions2.png)
 ![M6 View Shopping List](assets/m6/m6_view_shopping_list.png)
 ![M6 Create New Shopping List](assets/m6/m6_create_shoppinglist.png)
+
 ### Milestone 7 Progress
 [Milestone 7 Project Board](https://github.com/orgs/pantry-pals/projects/14)
 
-
+![M7 Landing Page](assets/m7/m7_landing.png)
+![M7 Add Produce Modal](assets/m7/m7_addItemModal.png)
+![M7 Recipes Page](assets/m7/m7_recipesPage.png)
+![M7 Add Recipes Modal](assets/m7/m7_addRecipeModal.png)
+![M7 Edit Recipes Modal](assets/m7/m7_editRecipeModal.png)
+![M7 Shopping List Page](assets/m7/m7_shoppingListPage.png)
+![M7 Shopping List Modal](assets/m7/m7_shoppingListModal.png)
 
 ---
 
