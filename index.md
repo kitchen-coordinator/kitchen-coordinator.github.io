@@ -78,7 +78,7 @@ The live site can be accessed here: [Pantry Pals](https://pantry-pal-gamma.verce
 ---
 
 ## Team Contract
-[Link to Team Contract]([https://docs.google.com/document/d/1QSisK4_q7C7179ZbYHU2LISKLjH-Tgl0kmKb8poIX38/edit?usp=sharing](https://docs.google.com/document/d/1VzBkSbz36BjpE7QcRbgKxxXCnpzzko8UlDvcngXWB2k/edit?tab=t.0))
+[Link to Team Contract](https://docs.google.com/document/d/1VzBkSbz36BjpE7QcRbgKxxXCnpzzko8UlDvcngXWB2k/edit?tab=t.)
 
 <!-- PDF.js settings -->
 <div id="pdf-viewer" style="
