@@ -80,41 +80,6 @@ The live site can be accessed here: [Pantry Pals](https://pantry-pal-gamma.verce
 ## Team Contract
 [Link to Team Contract](https://docs.google.com/document/d/1VzBkSbz36BjpE7QcRbgKxxXCnpzzko8UlDvcngXWB2k/edit?tab=t.)
 
-<!-- PDF.js settings -->
-<div id="pdf-viewer" style="
-    max-width:900px;
-    margin:20px auto;
-    border:1px solid #ccc;
-    border-radius:8px;
-    box-shadow:0 4px 10px rgba(0,0,0,0.1);
-    overflow-y:auto;
-    height:800px;
-    background-color:white;
-    padding:10px;
-"></div>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
-<script>
-const url = '/assets/team-contract.pdf';
-const container = document.getElementById('pdf-viewer');
-
-pdfjsLib.getDocument(url).promise.then(pdf => {
-  for (let i = 1; i <= pdf.numPages; i++) {
-    pdf.getPage(i).then(page => {
-      const scale = 1.5;
-      const viewport = page.getViewport({ scale });
-      const canvas = document.createElement('canvas');
-      const ctx = canvas.getContext('2d');
-      canvas.height = viewport.height;
-      canvas.width = viewport.width;
-      canvas.style.display = 'block';
-      canvas.style.margin = '10px auto';
-      container.appendChild(canvas);
-      page.render({ canvasContext: ctx, viewport: viewport });
-    });
-  }
-});
-</script>
 
 ---
 
