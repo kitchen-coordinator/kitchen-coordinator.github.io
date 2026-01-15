@@ -13,6 +13,7 @@ title: Pantry Pals
 5. [Developer Guide](#developer-guide)
 6. [Development Team](#development-team)
 7. [Milestones](#milestones)
+     - [Milestone 1 Progress](#milestone-1-progress)
 
 
 <!--
@@ -133,7 +134,10 @@ Pantry Pal is based upon the ICS Software Engineering [Next.js Application Templ
 ---
 
 ## Milestones
+  * [Milestone 1 Progress](#milestone-1-progress)
 
+### Milestone 1 Progress
+[Milestone 1 Project Board](https://github.com/orgs/kitchen-coordinator/projects/3)
 
 ---
 
