@@ -71,12 +71,6 @@ The live site can be accessed here: [Pantry Pals](https://pantry-pal-gamma.verce
 
 ---
 
-## Continuous Integration
-[![ci-badge](https://github.com/pantry-pals/pantry-pal/workflows/pantry-pals/badge.svg)](https://github.com/pantry-pals/pantry-pal/actions/workflows/ci.yml)
-
-
----
-
 ## Team Contract
 [Link to Team Contract](https://docs.google.com/document/d/1VzBkSbz36BjpE7QcRbgKxxXCnpzzko8UlDvcngXWB2k/edit?tab=t.)
 
@@ -146,104 +140,7 @@ Pantry Pal is based upon the ICS Software Engineering [Next.js Application Templ
 ---
 
 ## Milestones
-  * [Milestone 1 Progress](#milestone-1-progress)
-  * [Milestone 2 Progress](#milestone-2-progress)
-  * [Milestone 3 Progress](#milestone-3-progress)
-  * [Milestone 4 Progress](#milestone-4-progress)
-  * [Milestone 5 Progress](#milestone-5-progress)
-  * [Milestone 6 Progress](#milestone-6-progress)
-  * [Milestone 7 Progress](#milestone-7-progress)
 
-### Milestone 1 Progress
-[Milestone 1 Project Board](https://github.com/orgs/pantry-pals/projects/2)
-
-![Pantry App Screenshot](assets/m1/pantry_pals_homepage.png)
-![Pantry App Inventory_Screenshot](assets/m1/inventory.png)
-![Pantry App ShoppingList_Screenshot](assets/m3/m3_shopping_list.png)
-
-### Milestone 2 Progress
-[Milestone 2 Project Board](https://github.com/orgs/pantry-pals/projects/7)
-
-![Pantry Pals Landing Page](assets/m2/m2_pantry_pals_landing.png)
-![Pantry Pals Sign In Page](assets/m2/m2_signin_page.png)
-![Pantry Pals Sign Up Page](assets/m2/m2_signup_page.png)
-![Pantry Pals Pantry Page](assets/m2/m2_view_pantry_page.png)
-![Pantry Pals About Us Page 1](assets/m2/m2_about_us_page1.png)
-![Pantry Pals About Us Page 2](assets/m2/m2_about_us_page2.png)
-![Pantry Pals Recipe Page](assets/m2/M2_recipePage.png)
-
-### Milestone 3 Progress
-[Milestone 3 Project Board](https://github.com/orgs/pantry-pals/projects/10)
-
-![M3 Landing Page](assets/m3/m3_landing.png)
-![M3 Pantry Page Table](assets/m3/m3_pantry1.png)
-![M3 Pantry Page Cards](assets/m3/m3_pantry2.png)
-![M3 Add Item Modal](assets/m3/m3_add.png)
-![M3 Edit Item Modal](assets/m3/m3_edit.png)
-![M3 Shopping List Page](assets/m3/m3_shopping1.png)
-![M3 Shopping List Modal](assets/m3/m3_shopping2.png)
-![M3 Recipes Page](assets/m3/m3_recipes.png)
-![Mockup idea](assets/m1/Dashboard_Mock_Up.png)
-
-### Milestone 4 Progress
-[Milestone 4 Project Board](https://github.com/orgs/pantry-pals/projects/11)
-
-![M4 Landing Page](assets/m4/m4_landing.png)
-![M4 Dashboard Page](assets/m4/m4_dashboard.png)
-![M4 Dashboard Mockup](assets/m4/m4_dashboard_mockup.png)
-![M4 Pantry Page Table](assets/m4/m4_pantry_list.png)
-![M4 Pantry Page Cards](assets/m4/m4_pantry_cards.png)
-![M4 Add Item Modal](assets/m4/m4_additem.png)
-![M4 Edit Item Modal](assets/m4/m4_edititem.png)
-![M4 Delete Item Modal](assets/m4/m4_deleteitem.png)
-![M4 Shopping List Page](assets/m4/m4_shoppinglists.png)
-![M4 View Shopping List Modal](assets/m4/m4_shoppinglist_view.png)
-![M4 Delete Shopping List Modal](assets/m4/m4_shoppinglist_delete.png)
-![M4 Recipes Page 1](assets/m4/m4_recipes1.png)
-![M4 Recipes Page 2](assets/m4/m4_recipes2.png)
-
-### Milestone 5 Progress
-[Milestone 5 Project Board](https://github.com/orgs/pantry-pals/projects/12)
-
-![M5 Dashboard Page](assets/m5/m5_dashboard.png)
-![M5 Pantry Page Table](assets/m5/m5_pantry_table.png)
-![M5 Pantry Page Cards](assets/m5/m5_pantry_cards.png)
-![M5 Add Produce Modal](assets/m5/m5_addProduceModal.png)
-![M5 Edit Produce Modal](assets/m5/m5_editProduceModal.png)
-![M5 Add Location Modal](assets/m5/m5_addLocationModal.png)
-![M5 Delete Location Modal](assets/m5/m5_deleteLocationModal.png)
-![M5 Recipes Page](assets/m5/m5_recipes.png)
-![M5 Recipes I Can Make](assets/m5/m5_recipes_make.png)
-![M5 Add Recipes Modal](assets/m5/m5_addRecipeModal.png)
-![M5 Recipe Instructions](assets/m5/m5_recipes_instructions.png)
-![M5 Add To Shopping List from Main View](assets/m5/m5_addtoshoppinglist.png)
-![M5 Add To Shopping List from List View](assets/m5/m5_addtoshoppinglist2.png)
-
-### Milestone 6 Progress
-[Milestone 6 Project Board](https://github.com/orgs/pantry-pals/projects/13)
-
-![M6 Pantry Page Table](assets/m6/m6_pantry_table.png)
-![M6 Pantry Page Cards](assets/m6/m6_pantry_cards.png)
-![M6 Add Produce Modal](assets/m6/m6_add_item_modal.png)
-![M6 Recipes Page](assets/m6/m6_recipes.png)
-![M6 Recipes I Can Make](assets/m6/m6_make_recipes.png)
-![M6 Edit Recipes](assets/m6/m6_edit_recipes.png)
-![M6 Edit Recipes Modal](assets/m6/m6_edit_recipe_modal.png)
-![M6 Recipe Instructions 1](assets/m6/m6_recipe_instructions1.png)
-![M6 Recipe Instructions 2](assets/m6/m6_recipe_instructions2.png)
-![M6 View Shopping List](assets/m6/m6_view_shopping_list.png)
-![M6 Create New Shopping List](assets/m6/m6_create_shoppinglist.png)
-
-### Milestone 7 Progress
-[Milestone 7 Project Board](https://github.com/orgs/pantry-pals/projects/14)
-
-![M7 Landing Page](assets/m7/m7_landing.png)
-![M7 Add Produce Modal](assets/m7/m7_addItemModal.png)
-![M7 Recipes Page](assets/m7/m7_recipesPage.png)
-![M7 Add Recipes Modal](assets/m7/m7_addRecipeModal.png)
-![M7 Edit Recipes Modal](assets/m7/m7_editRecipeModal.png)
-![M7 Shopping List Page](assets/m7/m7_shoppingListPage.png)
-![M7 Shopping List Modal](assets/m7/m7_shoppingListModal.png)
 
 ---
 
