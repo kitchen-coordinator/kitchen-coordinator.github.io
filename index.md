@@ -14,13 +14,7 @@ title: Pantry Pals
 6. [Developer Guide](#developer-guide)
 7. [Development Team](#development-team)
 8. [Milestones](#milestones)
-    - [Milestone 1 Progress](#milestone-1-progress)
-    - [Milestone 2 Progress](#milestone-2-progress)
-    - [Milestone 3 Progress](#milestone-3-progress)
-    - [Milestone 4 Progress](#milestone-4-progress)
-    - [Milestone 5 Progress](#milestone-5-progress)
-    - [Milestone 6 Progress](#milestone-6-progress)
-    - [Milestone 7 Progress](#milestone-7-progress)
+
 
 <!--
 comment out add in later as we progress through project
