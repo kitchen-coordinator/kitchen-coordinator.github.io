@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Pantry Pals
+title: Kitchen-Coordinator 
 ---
 
-# Pantry Pals
+# Kitchen-Coordinator 
 
 ## Table of Contents
 1. [Overview](#overview)
@@ -65,7 +65,10 @@ _What's the point of a pantry app?_
 
 
 ---
+## Credits and Attribution 
+This project is forked off of the Pantry Pals appliction (https://github.com/pantry-pals/pantry-pal). This project builds upon the code with additional features.
 
+---
 ## User Guide
 An intro to using pantry pals  
 
@@ -109,7 +112,7 @@ This section provides information of interest to developers wishing to use this 
 ### Installation
 First, install [Node.js](https://nodejs.org/en/download/)
 
-Second, visit the [Pantry Pals application github page](https://github.com/kitchen-coordinator/kitchen-coordinator), and click the “Use this template” button to create your own repository initialized with a copy of this application. Alternatively, you can download the sources as a zip file or make a fork of the repo. However you do it, download a copy of the repo to your local computer.
+Second, visit the [Kitchen-Coordinator application github page](https://github.com/kitchen-coordinator/kitchen-coordinator), and click the “Use this template” button to create your own repository initialized with a copy of this application. Alternatively, you can download the sources as a zip file or make a fork of the repo. However you do it, download a copy of the repo to your local computer.
 
 Third, cd into the pantry-pal directory and install libraries with:
 ```
@@ -124,7 +127,7 @@ $ npm run dev
 If all goes well, the application will appear at [http://localhost:3000](http://localhost:3000).
 
 ### Application Design
-Pantry Pal is based upon the ICS Software Engineering [Next.js Application Template](https://github.com/ics-software-engineering/nextjs-application-template).
+Kitchen-Coordinator is based upon the ICS Software Engineering [Next.js Application Template](https://github.com/ics-software-engineering/nextjs-application-template).
 
 ---
 
