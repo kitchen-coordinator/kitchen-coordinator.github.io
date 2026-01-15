@@ -109,7 +109,7 @@ This section provides information of interest to developers wishing to use this 
 ### Installation
 First, install [Node.js](https://nodejs.org/en/download/)
 
-Second, visit the [Pantry Pals application github page](https://github.com/pantry-pals/pantry-pal), and click the “Use this template” button to create your own repository initialized with a copy of this application. Alternatively, you can download the sources as a zip file or make a fork of the repo. However you do it, download a copy of the repo to your local computer.
+Second, visit the [Pantry Pals application github page](https://github.com/kitchen-coordinator/kitchen-coordinator), and click the “Use this template” button to create your own repository initialized with a copy of this application. Alternatively, you can download the sources as a zip file or make a fork of the repo. However you do it, download a copy of the repo to your local computer.
 
 Third, cd into the pantry-pal directory and install libraries with:
 ```
