@@ -66,7 +66,7 @@ _What's the point of a pantry app?_
 
 ---
 ## Credits and Attribution 
-This project is forked off of the Pantry Pals appliction (https://github.com/pantry-pals/pantry-pal). This project builds upon the code with additional features.
+This project is forked off of the [Pantry Pals appliction](https://github.com/pantry-pals/pantry-pal). This project builds upon the code with additional features.
 
 ---
 ## User Guide
