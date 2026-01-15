@@ -8,12 +8,11 @@ title: Pantry Pals
 ## Table of Contents
 1. [Overview](#overview)
 2. [Deployment](#deployment)
-3. [Continuous Integration](#continuous-integration)
-4. [Team Contract](#team-contract)
-5. [User Guide](#user-guide)
-6. [Developer Guide](#developer-guide)
-7. [Development Team](#development-team)
-8. [Milestones](#milestones)
+3. [Team Contract](#team-contract)
+4. [User Guide](#user-guide)
+5. [Developer Guide](#developer-guide)
+6. [Development Team](#development-team)
+7. [Milestones](#milestones)
 
 
 <!--
@@ -139,10 +138,10 @@ Pantry Pal is based upon the ICS Software Engineering [Next.js Application Templ
 ---
 
 ## Development Team
-<img src="assets/m4/githubicon.png" width="15" height="15">[Mishalyn Mei Ilmeng](https://github.com/mishalyn-mei-ilmeng)  
-<img src="assets/m4/githubicon.png" width="15" height="15">[Simon Lin](https://github.com/simonwlin)
-<img src="assets/m4/githubicon.png" width="15" height="15">[Kenta Shingu](https://github.com/)
-<img src="assets/m4/githubicon.png" width="15" height="15">[Kwanho Chun](https://github.com/)
+<img src="assets/m4/githubicon.png" width="15" height="15">[Mishalyn Mei Ilmeng] (https://github.com/mishalyn-mei-ilmeng) 
+<img src="assets/m4/githubicon.png" width="15" height="15">[Simon Lin] (https://github.com/simonwlin)
+<img src="assets/m4/githubicon.png" width="15" height="15">[Kenta Shingu] (https://github.com/)
+<img src="assets/m4/githubicon.png" width="15" height="15">[Kwanho Chun] (https://github.com/)
 
 
 
