@@ -144,6 +144,7 @@ Kitchen-Coordinator is based upon the ICS Software Engineering [Next.js Applicat
 - <img src="assets/m4/githubicon.png" width="15" height="15">[Simon Lin](https://github.com/simonwlin)
 - <img src="assets/m4/githubicon.png" width="15" height="15">[Kwanho Chun](https://github.com/kwanhoc1)
 - <img src="assets/m4/githubicon.png" width="15" height="15">[Kawika Naweli](https://github.com/KawikaN)
+- <img src="assets/m4/githubicon.png" width="15" height="15">[Eli Thompson](https://github.com/EliThomp)
 
 
 
