@@ -150,13 +150,13 @@ Here’s what we accomplished:
   We created three new mobile mockup pages that rethink some of the core views (pantry, dashboard, and landing page) using card-based layouts and mobile-first interactions to make the app easier to use on smaller screens.
 
   ### Pantry Mobile Mockup
-  ![Pantry Mobile Mockup](assets/m1/PantryMockup.png)
+  <img src="assets/m1/PantryMockup.png" alt="Pantry Mobile Mockup" width="250"/>
 
   ### Dashboard Mobile Mockup
-  ![Dashboard Mobile Mockup](assets/m1/DashboardMockup.png)
+    <img src="assets/m1/DashboardMockup.png" width="250"/>
 
   ### Landing Page Mockup
-  ![Landing Page Mockup](assets/m1/LandingPage.png)
+    <img src="assets/m1/LandingPage.png" width="250"/>
 
 - **Rebranding the project**  
   We rebranded the application from Pantry Pals to **Kitchen-Coordinator**, updating the name and documentation to reflect that this is now our own project and direction.
