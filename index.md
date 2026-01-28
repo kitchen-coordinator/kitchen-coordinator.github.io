@@ -156,7 +156,7 @@ Here’s what we accomplished:
     <img src="assets/m1/DashboardMockup.png" width="250"/>
 
   ### Landing Page Mockup
-    <img src="assets/m1/LandingPage.png" width="250"/>
+    <img src="assets/m1/LandingPageMobileMockup.png" width="250"/>
 
 - **Rebranding the project**  
   We rebranded the application from Pantry Pals to **Kitchen-Coordinator**, updating the name and documentation to reflect that this is now our own project and direction.
