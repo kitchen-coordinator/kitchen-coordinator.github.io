@@ -14,6 +14,7 @@ title: Kitchen-Coordinator
 6. [Development Team](#development-team)
 7. [Milestones](#milestones)
      - [Milestone 1 Progress](#milestone-1-progress)
+     - [Milestone 2 Progress](#milestone-2-progress)
 
 
 <!--
@@ -136,6 +137,68 @@ Kitchen-Coordinator is based upon the ICS Software Engineering [Next.js Applicat
 
 ### Milestone 1 Progress
 [Milestone 1 Project Board](https://github.com/orgs/kitchen-coordinator/projects/3)
+
+## Milestones
+
+### Milestone 1 Progress
+
+Milestone 1 was all about setting up a solid foundation for **Kitchen-Coordinator**, both technically and from a user experience standpoint.
+
+Here’s what we accomplished:
+
+- **Mobile-friendly design mockups**  
+  We created three new mobile mockup pages that rethink some of the core views (pantry, dashboard, and landing page) using card-based layouts and mobile-first interactions to make the app easier to use on smaller screens.
+
+  - [Pantry Mobile Mockup](assets/m1/PantryMockup.png)
+  - [Dashboard Mobile Mockup](assets/m1/DashboardMockup.png)
+  - [Landing Page Mockup](assets/m1/LandingPage.png)
+
+- **Rebranding the project**  
+  We rebranded the application from Pantry Pals to **Kitchen-Coordinator**, updating the name and documentation to reflect that this is now our own project and direction.
+
+- **Updated user stories**  
+  We refined and clarified our user stories, which helped us better understand core features and streamline our development process.
+
+- **Database setup and deployment**  
+  We connected the app to a database and deployed it using Vercel, giving us persistent data storage and a live version of the app to work with.
+
+- **Improved developer documentation**  
+  We cleaned up and expanded the README to make the Developer Guide clearer and easier to follow for anyone setting up the project.
+
+**Milestone 1 Project Board**  
+https://github.com/orgs/kitchen-coordinator/projects/3/views/1
+
+Overall, Milestone 1 gave us a strong starting point and helped align both our technical setup and design direction.
+
+---
+
+### Milestone 2 Goals
+
+Milestone 2 builds directly on what we accomplished in Milestone 1, with a bigger focus on functionality, usability, and polish.
+
+Our goals for Milestone 2 include:
+
+- **Two-tier quantity and conversion system**  
+  We want to build user-friendly conversion tools that let pantry items stored in package-based units (like bags or boxes) be converted into recipe-friendly units. For example, setting up mappings like *1 bag = 500 g* so ingredients can be accurately used in recipes.
+
+- **Unit conversion with error handling**  
+  Add support for common cooking conversions such as cups to tablespoons and teaspoons, along with proper validation and error handling when conversions don’t make sense.
+
+- **Mobile-friendly UI implementation**  
+  Turn our approved mobile mockups into real, working layouts inside the app to improve the experience on phones and tablets.
+
+- **More mobile-focused UI development**  
+  Design and prototype additional mobile-friendly UI components that prioritize usability on smaller screens, including card-based layouts, simplified navigation, and touch-friendly interactions to support new features and workflows       introduced in this milestone.
+
+
+- **Continued testing and refinement**  
+  Add more acceptance tests and continue polishing the UI and performance across both desktop and mobile views.
+
+📌 **Milestone 2 Project Board**  
+https://github.com/orgs/kitchen-coordinator/projects/4/views/1
+
+Milestone 2 is focused on making Kitchen-Coordinator more intuitive and practical for everyday use while strengthening the overall system.
+
 
 ---
 
