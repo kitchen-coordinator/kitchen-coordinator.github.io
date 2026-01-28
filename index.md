@@ -149,9 +149,14 @@ Here’s what we accomplished:
 - **Mobile-friendly design mockups**  
   We created three new mobile mockup pages that rethink some of the core views (pantry, dashboard, and landing page) using card-based layouts and mobile-first interactions to make the app easier to use on smaller screens.
 
-  - [Pantry Mobile Mockup](assets/m1/PantryMockup.png)
-  - [Dashboard Mobile Mockup](assets/m1/DashboardMockup.png)
-  - [Landing Page Mockup](assets/m1/LandingPage.png)
+  ### Pantry Mobile Mockup
+  ![Pantry Mobile Mockup](assets/mockups/PantryMockup.png)
+
+  ### Dashboard Mobile Mockup
+  ![Dashboard Mobile Mockup](assets/mockups/DashboardMockup.png)
+
+  ### Landing Page Mockup
+  ![Landing Page Mockup](assets/mockups/LandingPage.png)
 
 - **Rebranding the project**  
   We rebranded the application from Pantry Pals to **Kitchen-Coordinator**, updating the name and documentation to reflect that this is now our own project and direction.
