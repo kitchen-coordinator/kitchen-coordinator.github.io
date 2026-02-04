@@ -167,7 +167,7 @@ Here’s what we accomplished:
   We cleaned up and expanded the README to make the Developer Guide clearer and easier to follow for anyone setting up the project.
 
 ### Milestone 1 Progress
-[Milestone 1 Project Board](https://github.com/orgs/kitchen-coordinator/projects/3)
+*[Milestone 1 Project Board](https://github.com/orgs/kitchen-coordinator/projects/3)
 
 Overall, Milestone 1 gave us a strong starting point and helped align both our technical setup and design direction.
 
@@ -196,7 +196,7 @@ Our goals for Milestone 2 include:
   Add more acceptance tests and continue polishing the UI and performance across both desktop and mobile views.
 
 📌 **Milestone 2 Project Board**  
-[Milestone 2 Project Board](https://github.com/orgs/kitchen-coordinator/projects/4/views/1)
+*[Milestone 2 Project Board](https://github.com/orgs/kitchen-coordinator/projects/4/views/1)
 
 Milestone 2 is focused on making Kitchen-Coordinator more intuitive and practical for everyday use while strengthening the overall system.
 
