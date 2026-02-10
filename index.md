@@ -2,6 +2,7 @@
 layout: default
 title: Kitchen-Coordinator 
 ---
+![ci-badge](https://github.com/kitchen-coordinator/kitchen-coordinator/workflows/kitchen-coordinator/badge.svg)
 
 # Kitchen-Coordinator 
 
