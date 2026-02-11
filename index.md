@@ -211,13 +211,13 @@ We integrated this directly into **View Pantry**, which now sorts items correctl
 ---
 ## Previous – Mass Sorting
 
-<img src="assets/m2/MassExample.png" width="250"/>
+<img src="assets/m2/MassExample.png" width="600"/>
 
 ---
 
 ## Previous – Volume Sorting
 
-<img src="assets/m2/VolumeExample.png" width="250"/>
+<img src="assets/m2/VolumeExample.png" width="600"/>
 
 ---
 
@@ -225,7 +225,7 @@ We integrated this directly into **View Pantry**, which now sorts items correctl
 
 Mixed mass units (kg, g, lb) now sort correctly.
 
-<img src="assets/m2/MassSorting.png" width="250"/>
+<img src="assets/m2/MassSorting.png" width="600"/>
 
 ---
 
@@ -233,7 +233,7 @@ Mixed mass units (kg, g, lb) now sort correctly.
 
 Mixed volume units (fl oz, L, tsp) now sort correctly.
 
-<img src="assets/m2/MassSorting.png" width="250"/>
+<img src="assets/m2/MassSorting.png" width="600"/>
 
 ---
 
