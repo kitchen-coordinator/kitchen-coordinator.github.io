@@ -174,35 +174,181 @@ Overall, Milestone 1 gave us a strong starting point and helped align both our t
 
 ---
 
-### Milestone 2 Goals
+### Milestone 2 Progress
 
-Milestone 2 builds directly on what we accomplished in Milestone 1, with a bigger focus on functionality, usability, and polish.
+# Milestone 2 Progress (Casual Update)
 
-Our goals for Milestone 2 include:
+Milestone 2 was all about improving functionality, usability, and overall polish. We focused on making unit handling smarter, strengthening our testing setup, and moving closer to a scalable two-tier quantity system.
 
-- **Two-tier quantity and conversion system**  
-  We want to build user-friendly conversion tools that let pantry items stored in package-based units (like bags or boxes) be converted into recipe-friendly units. For example, setting up mappings like *1 bag = 500 g* so ingredients can be accurately used in recipes.
+---
 
-- **Unit conversion with error handling**  
-  Add support for common cooking conversions such as cups to tablespoons and teaspoons, along with proper validation and error handling when conversions don’t make sense.
+## What We Explored
 
-- **Mobile-friendly UI implementation**  
-  Turn our approved mobile mockups into real, working layouts inside the app to improve the experience on phones and tablets.
+During this milestone, we:
 
-- **More mobile-focused UI development**  
-  Design and prototype additional mobile-friendly UI components that prioritize usability on smaller screens, including card-based layouts, simplified navigation, and touch-friendly interactions to support new features and workflows       introduced in this milestone.
+- Explored hard-coded standard unit conversions and what that means for safety vs scalability.
+- Looked into implementing a true two-tier quantity system (store in base units, display in user-friendly units).
+- Evaluated tradeoffs between same-metric conversions (mass → mass, volume → volume) and cross-metric conversions (mass ↔ volume).
+- Considered where conversion logic should live and how future user-defined mappings would impact performance and structure.
 
+This helped us understand how to keep conversions clean, centralized, and safe.
 
-- **Continued testing and refinement**  
-  Add more acceptance tests and continue polishing the UI and performance across both desktop and mobile views.
+---
+
+# Unit Conversion Utility Implementation
+
+We implemented a reusable unit conversion utility that allows consistent conversions across the project.
+
+This utility:
+
+- Normalizes user-entered units (kg, g, lb, fl_oz, tsp, L, etc.)
+- Converts values into base units (grams for mass, milliliters for volume)
+- Enables proper sorting and comparison across mixed units
+- Reduces duplicate conversion logic across components
+
+We integrated this directly into **View Pantry**, which now sorts items correctly even if they use different units.
+
+---
+## Previous – Mass Sorting
+
+<img src="assets/m2/MassExample.png" width="250"/>
+
+---
+
+## Previous – Volume Sorting
+
+<img src="assets/m2/VolumeExample.png" width="250"/>
+
+---
+
+## Now - Mass Sorting Example
+
+Mixed mass units (kg, g, lb) now sort correctly.
+
+<img src="assets/m2/MassSorting.png" width="250"/>
+
+---
+
+## Now - Volume Sorting Example
+
+Mixed volume units (fl oz, L, tsp) now sort correctly.
+
+<img src="assets/m2/MassSorting.png" width="250"/>
+
+---
+
+# Testing & CI Improvements
+
+We also strengthened reliability during this milestone:
+
+- Added acceptance testing with **TestCafe**
+- Set up **GitHub Actions CI**
+- Added a build/test status badge to the repository
+
+Now every push automatically builds and tests the system.
+
+---
+
+# Where This Sets Us Up
+
+This milestone moved the project from “basic functionality” toward something much more scalable and structured. 
+
+Next steps include:
+
+- Expanding the two-tier system
+- Supporting user-defined unit mappings (e.g., 1 bag = 500g)
+- Exploring density-based mass ↔ volume conversions
+- Continuing UI improvements for mobile responsiveness
+
+Milestone 2 helped lay the foundation for a more powerful and flexible pantry system.
+
 
 📌 **Milestone 2 Project Board**  
 - [Milestone 2 Project Board](https://github.com/orgs/kitchen-coordinator/projects/4/views/1)
 
 Milestone 2 is focused on making Kitchen-Coordinator more intuitive and practical for everyday use while strengthening the overall system.
 
+---
+
+# Milestone 3 Goals  
+*(Architecture → Advanced Functionality → Performance → UX Refinement)*
+
+Milestone 3 focuses on fully implementing and stabilizing the two-tier unit system, expanding conversion capabilities, improving performance, and refining the mobile experience.
 
 ---
+
+## Complete Implementation of the Common Two-Tier Unit System
+
+Move from exploration to full implementation.
+
+**Goals:**
+- Finalize the two-tier storage model (base unit + display unit)
+- Implement user-input common items for reusable mappings
+- Implement two-tier display logic inside Pantry
+- Ensure all conversions route through a single source-of-truth utility
+- Maintain backward compatibility with existing pantry data
+
+---
+
+## Density-Based Mass ↔ Volume Conversions
+
+Move from exploration into real cross-category functionality.
+
+**Goals:**
+- Persist user-input density in the database
+- Implement density-based conversion utility
+- Integrate density conversions into pantry and recipe flows
+- Add error handling for missing or invalid density
+- Add test coverage for cross-metric conversions
+
+---
+
+## Mobile-First UI Expansion
+
+Extend the mobile improvements started in Milestone 2.
+
+**Goals:**
+- Implement mobile-friendly design for Pantry
+- Implement mobile-friendly design for Dashboard
+- Implement mobile-friendly design for Landing Page
+- Improve touch targets and simplify layout for small screens
+- Reduce visual clutter introduced by new two-tier features
+
+---
+
+## Performance & UX Optimization
+
+Address user experience polish and technical performance.
+
+**Goals:**
+- Investigate and reduce user login delay
+- Research and implement improved preloader/loading states
+- Optimize conversion performance (especially DB lookups for rules)
+- Improve perceived performance during sorting and conversions
+
+---
+
+## Feature Expansion & Input Innovation
+
+Begin expanding beyond core pantry input.
+
+**Goals:**
+- Research implementation of recipe scanner for pantry input
+- Design a “Use” button workflow for consuming pantry items
+- Ensure new workflows integrate cleanly with two-tier and density systems
+
+---
+
+## Milestone 3 Theme
+
+If Milestone 2 was:
+
+> “Make conversions work and improve structure.”
+
+Then Milestone 3 is:
+
+> “Make the system scalable, smart, and production-ready.”
+
 
 ## Development Team
 - <img src="assets/m4/githubicon.png" width="15" height="15">[Mishalyn Mei Ilmeng](https://github.com/mishalyn-mei-ilmeng)
