@@ -233,7 +233,7 @@ Mixed mass units (kg, g, lb) now sort correctly.
 
 Mixed volume units (fl oz, L, tsp) now sort correctly.
 
-<img src="assets/m2/MassSorting.png" width="600"/>
+<img src="assets/m2/VolumeSorting.png" width="600"/>
 
 ---
 
