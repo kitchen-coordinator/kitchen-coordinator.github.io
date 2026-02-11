@@ -176,7 +176,7 @@ Overall, Milestone 1 gave us a strong starting point and helped align both our t
 
 ### Milestone 2 Progress
 
-# Milestone 2 Progress (Casual Update)
+# Milestone 2 Progress
 
 Milestone 2 was all about improving functionality, usability, and overall polish. We focused on making unit handling smarter, strengthening our testing setup, and moving closer to a scalable two-tier quantity system.
 
