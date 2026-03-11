@@ -349,6 +349,191 @@ Then Milestone 3 is:
 
 > “Make the system scalable, smart, and production-ready.”
 
+---
+
+# Milestone 4 Progress
+
+Milestone 4 focused on improving usability, expanding the two-tier system, and refining the overall interface of **Kitchen-Coordinator**.  
+During this milestone we implemented the **Two-Tier Common Item system**, improved **mobile responsiveness**, and fixed several UI and stability issues throughout the application.
+
+These changes make pantry management more intuitive while keeping the backend unit system clean and consistent.
+
+---
+
+## Two-Tier Common Item System
+
+The major feature completed in Milestone 4 was the implementation of a **Two-Tier Common Item system**.
+
+This system allows users to define reusable item conversions that represent real-world packaging sizes or quantities. For example, users can define values such as:
+
+- 0.25 jars  
+- 1 bottle  
+- 1 bag
+
+These reusable conversions make it easier to quickly add and edit pantry items without manually calculating quantities every time.
+
+This feature was integrated into several core pages of the application:
+
+- Pantry Page  
+- Add Item Page  
+- Edit Item Page  
+
+When a user selects a common item conversion, the application automatically converts that value into a standardized backend unit such as:
+
+- kilograms (kg)
+- grams (g)
+- cups
+- liters
+
+<img src="assets/m4/m4_Database.png" width="700"/>
+
+This ensures that all pantry data is stored consistently in the database while still allowing users to interact with familiar measurements.
+
+### Two-Tier System Example
+
+<img src="assets/m4/m4_Pantry.png" width="700"/>
+
+---
+
+## Mobile UI Improvements
+
+Another major focus of Milestone 4 was improving the **mobile experience** of the application.
+
+Several pages were redesigned to better support smaller screens and mobile interaction.
+
+Pages improved in this milestone include:
+
+- Pantry page (Added Shopping Cart)
+- Edit item page
+- Landing page
+
+We redesigned pantry cards and improved spacing to make the interface easier to navigate on phones and tablets.
+
+### Mobile Pantry Interface
+
+<img src="assets/m4/m4_SC.png" width="700"/>
+
+---
+
+## Navigation and UI Refinements
+
+We also implemented several UI improvements to make the interface cleaner and easier to use.
+
+Key updates include:
+
+- A redesigned **navigation bar icon**
+- A **collapsible navigation menu** for smaller screens
+- Improved spacing and readability across pages
+
+These changes help users navigate the application more efficiently.
+
+### Navigation Improvements
+
+<img src="assets/m4/m4_navbar.png" width="700"/>
+
+---
+
+## Improved User Interaction Feedback
+
+We improved the visual feedback users receive when interacting with the interface.
+
+These updates include:
+
+- Cursor style changes when hovering over icons
+- Clearer visual indicators for interactive UI elements
+
+These small improvements make the interface feel more responsive and intuitive.
+
+### New Dashboard Example
+
+<img src="assets/m4/m4_dashboard.png" width="700"/>
+
+---
+
+## Bug Fixes and Stability Improvements
+
+Milestone 4 also addressed several technical issues in the project.
+
+Fixes included:
+
+- Resolving merge conflicts across development branches
+- Fixing pantry display bugs
+- Improving stability when rendering pantry items
+
+These updates helped ensure the pantry system behaves reliably and consistently.
+
+### Conditional Padding Fix
+
+Before
+<img src="assets/m4/m4_before.png" width="700"/>
+
+After
+<img src="assets/m4/m4_after.png" width="700"/>
+
+---
+
+# Milestone 5 Goals
+
+Milestone 5 will focus on expanding the functionality of **Kitchen-Coordinator** by improving the recipe system, continuing mobile interface development, and introducing a shopping list feature that integrates directly with pantry inventory.
+
+These updates will connect the application's core features and make the system more useful for everyday kitchen management.
+
+---
+
+## Recipe System Overhaul
+
+One of the main goals for Milestone 5 is to redesign the **recipe system** so that it interacts directly with pantry inventory.
+
+Currently recipes exist separately from pantry items. The new system will allow users to **use ingredients from their pantry when cooking a recipe**.
+
+Planned improvements include:
+
+- A **Use Recipe button** that deducts ingredients from the pantry
+- Matching recipe ingredients with pantry items
+- Notifications when ingredients are missing or insufficient
+
+This feature will turn the pantry into a more interactive cooking assistant.
+
+---
+
+## Continued Mobile UI Improvements
+
+Although several pages were improved in Milestone 4, additional pages still require mobile optimization.
+
+Milestone 5 will continue improving responsive design across the remaining parts of the application.
+
+Planned improvements include:
+
+- Mobile layouts for remaining pages
+- Improved spacing and readability
+- Consistent responsive design across the entire system
+
+---
+
+## Shopping List Integration
+
+Milestone 5 will also introduce a **shopping list system** that integrates with the pantry.
+
+This feature will allow users to create lists of items they need to purchase and then easily add those items to their pantry once they are acquired.
+
+Planned functionality includes:
+
+- Creating and managing shopping lists
+- Reminders for items that need to be purchased
+- Marking shopping list items as completed
+- Automatically adding completed items to the pantry
+
+This feature helps connect **grocery planning with pantry management**.
+
+---
+
+## Milestone 5 Theme
+
+If Milestone 4 focused on improving usability and interface design,
+
+> Milestone 5 will focus on connecting features together to create a smarter and more interactive kitchen management system.
+
+
 
 ## Development Team
 - <img src="assets/m4/githubicon.png" width="15" height="15">[Mishalyn Mei Ilmeng](https://github.com/mishalyn-mei-ilmeng)
