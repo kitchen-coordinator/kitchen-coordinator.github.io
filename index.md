@@ -466,10 +466,12 @@ These updates helped ensure the pantry system behaves reliably and consistently.
 
 ### Conditional Padding Fix
 
-Before
+#Before
+
 <img src="assets/m4/m4_before.png" width="700"/>
 
-After
+#After
+
 <img src="assets/m4/m4_after.png" width="700"/>
 
 ---
