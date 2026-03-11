@@ -444,9 +444,11 @@ These updates include:
 
 These small improvements make the interface feel more responsive and intuitive.
 
-### New Dashboard Example
+### New Dashboard and Landing Example
 
 <img src="assets/m4/m4_dashboard.png" width="700"/>
+
+<img src="assets/m4/m4_landing.png" width="700"/>
 
 ---
 
