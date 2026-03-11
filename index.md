@@ -413,6 +413,8 @@ We redesigned pantry cards and improved spacing to make the interface easier to 
 
 <img src="assets/m4/m4_SC.png" width="700"/>
 
+<img src="assets/m4/m4_edit.png" width="700"/>
+
 ---
 
 ## Navigation and UI Refinements
