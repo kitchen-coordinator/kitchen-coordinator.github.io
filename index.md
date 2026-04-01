@@ -478,66 +478,154 @@ These updates helped ensure the pantry system behaves reliably and consistently.
 
 ---
 
-# Milestone 5 Goals
+# Milestone 5 Progress
 
-Milestone 5 will focus on expanding the functionality of **Kitchen-Coordinator** by improving the recipe system, continuing mobile interface development, and introducing a shopping list feature that integrates directly with pantry inventory.
+Milestone 5 focused on transforming Kitchen-Coordinator from a collection of individual features into a fully connected system.
+During this milestone, we introduced the shopping list system, integrated pantry and recipes, and expanded our backend to support more realistic user workflows.
 
-These updates will connect the application's core features and make the system more useful for everyday kitchen management.
+These changes significantly improved how users interact with the app in real-world scenarios, especially when cooking and restocking ingredients.
 
----
+## Shopping List System
 
-## Recipe System Overhaul
+The biggest feature introduced in this milestone was a complete Shopping List system.
 
-One of the main goals for Milestone 5 is to redesign the **recipe system** so that it interacts directly with pantry inventory.
+Users can now:
 
-Currently recipes exist separately from pantry items. The new system will allow users to **use ingredients from their pantry when cooking a recipe**.
+Create and manage shopping lists
+Add and remove items
+Track which items have been completed
+Restock pantry items directly from the shopping list
 
-Planned improvements include:
+This system is supported by new backend API routes and frontend components, making it fully integrated into the application.
 
-- A **Use Recipe button** that deducts ingredients from the pantry
-- Matching recipe ingredients with pantry items
-- Notifications when ingredients are missing or insufficient
+Shopping List Example
+<img src="assets/m5/m5_createlist.png" width="700"/>
+<img src="assets/m5/m5_list.png" width="700"/>
+<img src="assets/m5/m5_shoppinglist.png" width="700"/>
 
-This feature will turn the pantry into a more interactive cooking assistant.
+## Pantry and Shopping List Integration
 
----
+We expanded functionality by connecting the pantry directly to the shopping list system.
 
-## Continued Mobile UI Improvements
+New logic allows:
 
-Although several pages were improved in Milestone 4, additional pages still require mobile optimization.
+Pantry items to trigger restock actions
+Shopping list items to update pantry quantities
+Better tracking of what needs to be replenished
 
-Milestone 5 will continue improving responsive design across the remaining parts of the application.
+This creates a smoother workflow where users can go from low inventory → shopping list → restocking without friction.
 
-Planned improvements include:
+## Recipe and Pantry Integration
 
-- Mobile layouts for remaining pages
-- Improved spacing and readability
-- Consistent responsive design across the entire system
+Recipes were upgraded to interact directly with pantry data.
 
----
+Users can now:
 
-## Shopping List Integration
+Use ingredients from their pantry when cooking
+Automatically deduct ingredient quantities
+Keep their pantry up to date based on actual usage
 
-Milestone 5 will also introduce a **shopping list system** that integrates with the pantry.
+This makes recipes more than just references — they are now part of the core system workflow.
 
-This feature will allow users to create lists of items they need to purchase and then easily add those items to their pantry once they are acquired.
+<img src="assets/m5/m5_usebutton.png" width="700"/>
 
-Planned functionality includes:
+## Database and Backend Improvements
 
-- Creating and managing shopping lists
-- Reminders for items that need to be purchased
-- Marking shopping list items as completed
-- Automatically adding completed items to the pantry
+Significant updates were made to the database and backend structure.
 
-This feature helps connect **grocery planning with pantry management**.
+These include:
 
----
+New tables for shopping lists and related items
+Updated relationships between pantry, recipes, and shopping lists
+Prisma schema updates and migrations
 
-## Milestone 5 Theme
+These changes allow the system to support more complex interactions between features.
 
-If Milestone 4 focused on improving usability and interface design,
+## UI and Dashboard Improvements
 
-> Milestone 5 will focus on connecting features together to create a smarter and more interactive kitchen management system.
+We continued improving the overall user experience.
+
+Updates include:
+
+Improved dashboard with better alerts and feedback
+Cleaner layout and navigation
+More consistent styling across pages
+
+These changes make the app easier to navigate and more intuitive to use.
+
+## Milestone 5 Impact
+
+The application now supports a full workflow from:
+
+Managing pantry items
+Cooking with recipes
+Tracking usage
+Restocking through shopping lists
+
+# Milestone 6 Goals
+
+Milestone 6 focuses on finalizing functionality, design, and overall polish to prepare the application for a stable and complete user experience.
+
+## Full System Integration
+
+Ensure all core systems work seamlessly together:
+
+Pantry ↔ Recipes ↔ Shopping Lists
+Verify end-to-end workflows:
+Use ingredients → update pantry → generate restock items
+
+The goal is to eliminate any disconnected or incomplete features.
+
+## UI/UX Refinement
+
+Improve the overall look and usability of the application.
+
+Goals include:
+
+Consistent design across all pages
+Improved mobile responsiveness
+Cleaner layouts and better spacing
+More intuitive user interactions
+
+The app should feel cohesive and easy to use.
+
+## Performance and Stability
+
+Improve reliability across the application.
+
+Goals include:
+
+Fix remaining bugs and edge cases
+Optimize data fetching and rendering
+Ensure consistent behavior in both development and deployment
+Testing and Reliability
+
+## Strengthen testing coverage and CI stability.
+
+Goals include:
+
+Add missing Playwright tests for key pages
+Use stable selectors for reliable testing
+Ensure all tests pass consistently before deployment
+Code Quality and Maintainability
+
+Clean up and improve the codebase.
+
+Goals include:
+
+Remove unused or redundant code
+Improve type safety
+Refactor complex logic into reusable utilities
+Maintain consistent coding patterns
+Deployment and Final Readiness
+
+## Prepare the application for final presentation and use.
+
+Goals include:
+
+Resolve deployment issues (e.g., Prisma, API routes)
+Ensure production build runs without errors
+Deliver a stable and polished final product
 
 
 
