@@ -16,7 +16,9 @@ title: Kitchen-Coordinator
 7. [Milestones](#milestones)
      - [Milestone 1 Progress](#milestone-1-progress)
      - [Milestone 2 Progress](#milestone-2-progress)
-
+     - [Milestone 2 Progress](#milestone-3-progress)
+     - [Milestone 2 Progress](#milestone-4-progress)
+     - [Milestone 2 Progress](#milestone-5-progress)
 
 <!--
 comment out add in later as we progress through project
