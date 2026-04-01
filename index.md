@@ -499,9 +499,10 @@ Restock pantry items directly from the shopping list
 This system is supported by new backend API routes and frontend components, making it fully integrated into the application.
 
 Shopping List Example
-<img src="assets/m5/m5_createlist.png" width="700"/>
-<img src="assets/m5/m5_list.png" width="700"/>
-<img src="assets/m5/m5_shoppinglist.png" width="700"/>
+
+<img src="assets/m5/m5_createlist.png" width="500"/>
+<img src="assets/m5/m5_list.png" width="500"/>
+<img src="assets/m5/m5_shoppinglist.png" width="500"/>
 
 ## Pantry and Shopping List Integration
 
@@ -527,7 +528,7 @@ Keep their pantry up to date based on actual usage
 
 This makes recipes more than just references — they are now part of the core system workflow.
 
-<img src="assets/m5/m5_usebutton.png" width="700"/>
+<img src="assets/m5/m5_usebutton.png" width="500"/>
 
 ## Database and Backend Improvements
 
