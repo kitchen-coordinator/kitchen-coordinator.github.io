@@ -565,71 +565,108 @@ Cooking with recipes
 Tracking usage
 Restocking through shopping lists
 
-# Milestone 6 Goals
+# Milestone 6 Progress
 
-Milestone 6 focuses on finalizing functionality, design, and overall polish to prepare the application for a stable and complete user experience.
+Milestone 6 focused on refining the core functionality of Kitchen-Coordinator.
 
-## Full System Integration
+During this milestone, we built on previous features and introduced better data handling, more reactive alert systems, and improved UI interactions to make the application more practical.
 
-Ensure all core systems work seamlessly together:
+## QuickAlerts Logic Overhaul
 
-Pantry ↔ Recipes ↔ Shopping Lists
-Verify end-to-end workflows:
-Use ingredients → update pantry → generate restock items
+One of the most important improvements in this milestone was fixing and expanding the QuickAlerts system.
 
-The goal is to eliminate any disconnected or incomplete features.
+Previously, alerts were misleading and grouped different states together. We updated the logic to provide more accurate and meaningful feedback.
 
-## UI/UX Refinement
+Improvements:
 
-Improve the overall look and usability of the application.
+- Separated expired items from expiring soon items
+- Displayed counts for both categories
+- Differentiated overdue shopping lists from upcoming ones
+- Added visual urgency indicators (e.g., “!!!” for overdue lists)
+- Provided clearer insight into what requires immediate attention
+<img src="assets/m6/m6_dash1.png" width="500"/>
+<img src="assets/m6/m6_dash2.png" width="500"/>
 
-Goals include:
+## Fraction-Based Quantity Handling & Improved Number Handling
 
-Consistent design across all pages
-Improved mobile responsiveness
-Cleaner layouts and better spacing
-More intuitive user interactions
+We significantly improved how the system handles ingredient quantities by introducing fraction support. 
+Beyond fractions, we improved how quantities are processed and displayed across the system.
 
-The app should feel cohesive and easy to use.
+Improvements:
 
-## Performance and Stability
+- Added support for fractions and mixed numbers (e.g., 1/2, 1 1/2)
+- Created a parsing system to convert user input into normalized values
+- Allowed both string and numeric inputs across the app
+- Converted stored values into clean, user-friendly display formats
+- Normalized quantities before storing in the database
+- Improved consistency in unit conversions and display formatting
+- Reduced rounding inconsistencies across pantry and recipe views
 
-Improve reliability across the application.
+## Server Actions & Validation Enhancements
 
-Goals include:
+We strengthened backend logic to ensure all user inputs are handled consistently and safely.
 
-Fix remaining bugs and edge cases
-Optimize data fetching and rendering
-Ensure consistent behavior in both development and deployment
-Testing and Reliability
+Improvements:
 
-## Strengthen testing coverage and CI stability.
+- Updated server actions (dbActions) to:
+- Parse fraction-based inputs
+- Handle both string and numeric values
+- Normalize data before storage
+- Improved validation schemas:
+- Added support for fraction inputs
+- Strengthened validation for quantities, thresholds, and deadlines
+- Improved handling of optional and nullable fields
 
-Goals include:
+## Shopping List UI & Logic Improvements
 
-Add missing Playwright tests for key pages
-Use stable selectors for reliable testing
-Ensure all tests pass consistently before deployment
-Code Quality and Maintainability
+We refined both the data model and user interface for shopping lists.
 
-Clean up and improve the codebase.
+Improvements:
 
-Goals include:
+- Standardized “due date” → “deadline” across the system
+- Removed edit/delete columns from tables to improve mobile layout
+- Replaced with cleaner edit/delete button interactions
+- Improved overall usability and responsiveness
 
-Remove unused or redundant code
-Improve type safety
-Refactor complex logic into reusable utilities
-Maintain consistent coding patterns
-Deployment and Final Readiness
 
-## Prepare the application for final presentation and use.
+## Pantry & Expiration Improvements
 
-Goals include:
+We expanded how the system handles expiration data to improve usability while also improving the mobile UI.
 
-Resolve deployment issues (e.g., Prisma, API routes)
-Ensure production build runs without errors
-Deliver a stable and polished final product
+Improvements:
 
+- Improved logic for identifying expired vs expiring items
+- Prepared the system for enhanced expiration visibility features
+- Laid groundwork for new UI components (e.g., expired item banners)
+- Reduced clutter in order to better suit mobile users
+
+<img src="assets/m6/m6_pantryexpire.png" width="500"/>
+<img src="assets/m6/m6_pantryUI.png" width="500"/>
+
+# Milestone 7 Goals
+
+## Goal of Milestone 7
+
+The goal of this milestone is to finalize and polish the application, ensuring that all core features work together seamlessly, the UI is consistent and mobile-friendly, and the system is stable and ready for demonstration.
+
+## Key Features & Updates
+Recipe Logic Improvements
+- Ensure recipes check ingredient availability based on quantity and units
+
+Expired Items & Pantry Cleanliness
+- Highlight expired items and improve overall pantry awareness
+
+UI Consistency (Modals & Alerts) 
+- Standardize modals and dashboard alert components
+
+Mobile Responsiveness Improvements 
+- Fix layouts and improve usability across mobile devices
+
+Shopping List & Pantry Flow Enhancements 
+- Improve restocking workflow and ingredient usage logic
+
+Bug Fixes & Stability 
+- Resolve Prisma migration issues and fix recipe-related errors
 
 
 ## Development Team
